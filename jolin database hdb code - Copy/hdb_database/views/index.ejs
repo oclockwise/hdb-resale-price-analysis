@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title><%= title %></title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans p-8">
+
+  <h1 class="text-4xl font-bold mb-8 text-center text-blue-800">Welcome to <%= title %></h1>
+  <p class="max-w-3xl mx-auto mb-6 text-center text-gray-700">Select a report to view:</p>
+
+  <ul class="max-w-md mx-auto space-y-4">
+    <li>
+      <a href="/top-towns" class="block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 text-center font-semibold">
+        Top 10 Towns by Average Resale Price (4 ROOM)
+      </a>
+    </li>
+    <li>
+      <a href="/avg-price-by-year" class="block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 text-center font-semibold">
+        Average Resale Price by Flat Type & Year
+      </a>
+    </li>
+    <li>
+      <a href="/lease-year-avg-price" class="block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 text-center font-semibold">
+        Average Resale Price by Lease Commence Year
+      </a>
+    </li>
+    <li>
+      <a href="/avg-price-by-storey" class="block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 text-center font-semibold">
+        Average Resale Price by Storey Range
+      </a>
+    </li>
+    <li>
+      <a href="/transactions-by-town" class="block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 text-center font-semibold">
+        Transaction Counts by Town and Flat Type
+      </a>
+    </li>
+  </ul>
+
+</body>
+</html>
