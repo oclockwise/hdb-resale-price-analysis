@@ -1,4 +1,4 @@
-# 🏠 HDB Resale Flat Price Analysis & Web Application
+# HDB Resale Flat Price Analysis & Web Application
 
 ## Overview
 This project explores HDB resale flat prices in Singapore by combining database design, SQL analysis, and web development. It analyzes housing trends such as resale prices across towns, flat types, storey ranges, and lease years using structured data.
